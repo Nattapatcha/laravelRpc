@@ -1,0 +1,6 @@
+*.frm
+*.ibd
+*.MYI
+*.MYD
+/mariadb
+/database

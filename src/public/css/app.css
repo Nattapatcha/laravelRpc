@@ -1,0 +1,78 @@
+.img-upload-container {
+  margin-bottom: 10px;
+  padding: 3px;
+  margin-top: -20px; }
+  .img-upload-container .img-container {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    border: 1px solid #CCC; }
+  .img-upload-container .img-thumb {
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: auto;
+    height: auto; }
+  .img-upload-container .img-upload-file {
+    margin-top: 5px; }
+  .img-upload-container .has-uploaded-img {
+    display: none; }
+  .img-upload-container .delete-img-btn {
+    width: 30px;
+    height: 30px;
+    background: black;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    left: 120px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 2;
+    opacity: 0.4; }
+
+.flex-container .row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+.flex-container .col {
+  -ms-flex: 1 0 18%;
+  flex: 1 0 18%;
+  /* The important bit. This percentage decides your columns. 
+        The percent can be px. It just represents your minimum starting width.
+        */
+  margin: 5px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.flex-container .img-file {
+  margin-bottom: 10px; }
+
+.images-container label {
+  display: block; }
+
+.images-container a {
+  display: inline-block;
+  margin-right: 10px; }
+
+.images-container .img-issue-preview {
+  max-height: 200px;
+  width: auto;
+  padding: 5px;
+  border: 1px solid #ccc; }
+
+#map {
+  width: 600px;
+  height: 300px; }
+
+/*# sourceMappingURL=app.css.map */

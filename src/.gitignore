@@ -1,0 +1,48 @@
+# Laravel
+/vendor/
+/node_modules/
+/public/storage
+/storage/*.key
+/storage/app/public
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/bootstrap/cache/*.php
+
+# Environment & Configuration
+.env
+.env.*
+/homestead.yaml
+/homestead.json
+.phpunit.result.cache
+
+# Database dumps
+*.sql
+*.sqlite
+*.db
+
+# IDE & OS files
+/.vscode/
+/.idea/
+/*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Docker-related files (generated volumes or data)
+mariadb/db_data/
+mariadb/config/*.cnf.bak
+docker-compose.override.yml
+
+# Logs
+*.log
+storage/logs/*.log
+
+# npm / build artifacts
+/public/js/*.map
+/public/css/*.map
+/public/mix-manifest.json
+
+# Custom temporary or test files
+/New Text Document.txt

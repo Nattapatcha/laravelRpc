@@ -1,0 +1,12 @@
+node_modules 
+vendor 
+.git 
+.env 
+storage/logs/* 
+!storage/logs/.gitkeep 
+public/storage 
+bootstrap/cache/* 
+!bootstrap/cache/.gitkeep 
+.DS_Store 
+Thumbs.db 
+*.log 
