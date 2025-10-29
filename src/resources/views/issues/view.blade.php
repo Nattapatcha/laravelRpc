@@ -151,5 +151,5 @@
         ]) !!}
                 }
             </script>
-            <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGqVWUOqOKnrO8sQmXCTkYi3bHDSkgYLA"></script>
+            <script defer src="https://maps.googleapis.com/maps/api/js?key=?"></script>
     @endsection
